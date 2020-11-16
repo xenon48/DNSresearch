@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict
 
-h = "192.168.132.250"
-u = "vsu2019"
-p = "yGt2dA"
-db = "telkov_db_dpo"
+h = "///"
+u = "///"
+p = "///"
+db = "///"
 port = 5432
 
 data, arr, slivki_arr = [], [], []

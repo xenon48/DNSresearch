@@ -10,14 +10,14 @@ def mysql(direction):
 
     sql_hostname = 'localhost'
     sql_username = 'root'
-    sql_password = ''
-    sql_main_database = 'perl'
+    sql_password = '///'
+    sql_main_database = '///'
     sql_port = 3306
-    ssh_host = '10.36.65.1'
-    ssh_user = 'DPOLL_MPashentsev'
+    ssh_host = '///'
+    ssh_user = '///'
     ssh_password = '///'
     ssh_port = 22
-    sql_ip = '127.0.0.1'
+    sql_ip = '///'
 
     with SSHTunnelForwarder(
             (ssh_host, ssh_port),
